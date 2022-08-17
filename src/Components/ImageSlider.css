@@ -1,0 +1,44 @@
+.image-slider {
+  width: 1200px;
+  height: 700px;
+  position: relative;
+}
+.image-displaying {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.carousel-button {
+  z-index: 2;
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 2.5rem;
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}

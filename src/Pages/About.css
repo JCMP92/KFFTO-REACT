@@ -1,0 +1,56 @@
+#about-section {
+  height: calc(100% - 90px);
+  width: 100%;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: white;
+
+  box-sizing: border-box;
+}
+.about-card {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.959);
+  padding: 30px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.photo-about {
+  width: 90%;
+  min-width: 500px;
+  height: 95%;
+
+  background-image: url('../Img/tyler-nix-3uSHEffsDXI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+
+  margin-right: 30px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.text-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95%;
+  font-family: 'Roboto';
+}
+.text-about > h2 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 2rem;
+
+  color: rgb(124, 198, 173);
+}
+.text-about > p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1rem;
+
+  color: black;
+}

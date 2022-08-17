@@ -1,0 +1,9 @@
+.kffto-home {
+  width: 100%;
+  max-width: 100%; /*to prevent overflow*/
+  height: calc(100% - 90px);
+
+  background-image: url('../Img/Logotipo_Kffto_Mesa de trabajo 1.png');
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,26 @@
+#gallery-section {
+  height: calc(100% - 90px);
+  width: 100%;
+}
+.gallery-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.gallery-title {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: white;
+}
+.highlight {
+  color: rgb(124, 198, 173);
+  font-size: 2.5rem;
+}
