@@ -13,7 +13,8 @@
 }
 .gallery-title {
   display: flex;
-  height: 120px;
+  height: 13%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   font-family: 'Roboto';
@@ -23,4 +24,10 @@
 .highlight {
   color: rgb(124, 198, 173);
   font-size: 2.5rem;
+}
+.KFFTO-carousel {
+  display: flex;
+  height: 87%;
+  width: 100%;
+  justify-content: center;
 }

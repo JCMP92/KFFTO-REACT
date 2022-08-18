@@ -16,8 +16,8 @@ function Contact() {
         <div className="map">
           <iframe
             src="https://www.google.com/maps/d/u/0/embed?mid=10dhs1EmyfrsAPLz4mgbPzqMq5aDkVbk&ehbc=2E312F"
-            width="640"
-            height="480"
+            width="100%"
+            height="98%"
             title="Location Map"
           ></iframe>
         </div>

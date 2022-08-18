@@ -1,4 +1,6 @@
 #menu-section {
+  height: calc(100% - 90px);
+  width: 100%;
   font-family: 'Roboto';
   font-weight: 400;
 }
@@ -6,10 +8,12 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 .menu-text {
   display: flex;
-  height: 300px;
+  height: 37%;
   padding: 0 50px;
 }
 .mnu-txt {
@@ -32,11 +36,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 510px;
+  height: 63%;
+  width: 100%;
 }
 .menu-button {
   height: 80%;
-  width: 40vw;
+  width: 40%;
   background-color: purple;
   display: flex;
   flex-direction: column;
@@ -55,7 +60,7 @@
 }
 .shop-content {
   height: 80%;
-  width: 40vw;
+  width: 40%;
   background-color: rgb(175, 143, 175);
   display: flex;
   flex-direction: column;
