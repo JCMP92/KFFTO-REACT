@@ -41,7 +41,7 @@ function MenuStore() {
           <div className="shop-content">
             <h1>Visita nuestra tienda online</h1>
             <a
-              href="https://www.mercadoshops.com.mx/?utm_content=131995570731_554713702731&gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOV1xcJV9fuuxRr0ET9ir4iloLDFQplwHkvoyoCICBy5DHFMmP3a9ysaAlmoEALw_wcB"
+              href="https://kftokfto.mercadoshops.com.mx/"
               target="_blank"
               rel="noreferrer"
             >

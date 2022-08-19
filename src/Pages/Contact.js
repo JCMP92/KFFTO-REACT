@@ -27,15 +27,15 @@ function Contact() {
             <div className="contact-icons-container">
               <div className="contacts-with-icons">
                 <PhoneSvg className="contact-svg" />
-                <a href="tel:5212224840090">2224840090</a>
+                <a href="tel:5212212268367">2212268367</a>
               </div>
               <div className="contacts-with-icons">
                 <WhatsSvg className="contact-svg" />
-                <a href="https://wa.me/+5212224840090">2224840090</a>
+                <a href="https://wa.me/+5212212268367">2212268367</a>
               </div>
               <div className="contacts-with-icons">
                 <MailSvg className="contact-svg" />
-                <a href="mailto:kffto@gmail.com">kffto@gmail.com</a>
+                <a href="mailto:kfftocafe@gmail.com">kfftocafe@gmail.com</a>
               </div>
               <div className="contacts-with-icons">
                 <LocationSvg className="contact-svg" />
