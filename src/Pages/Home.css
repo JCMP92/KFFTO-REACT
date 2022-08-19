@@ -7,3 +7,11 @@
   background-size: cover;
   background-position: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+  .kffto-home {
+    background-image: url('../Img/Logotipo_Kffto-02.png');
+  }
+}
