@@ -8,7 +8,7 @@ function Gallery() {
         <div className="gallery-title">
           <h1>
             VIVE <span className="highlight">LA EXPERIENCIA</span> DEL
-            <span className="highlight">CAFÉ</span>
+            <span className="highlight"> CAFÉ</span>
           </h1>
         </div>
         <div className="KFFTO-carousel">

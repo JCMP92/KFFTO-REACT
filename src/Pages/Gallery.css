@@ -31,3 +31,26 @@
   width: 100%;
   justify-content: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+  .highlight {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 660px) {
+  .highlight {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .highlight {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 375px) {
+  .highlight {
+    font-size: 1rem;
+  }
+}
