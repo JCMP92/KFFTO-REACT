@@ -54,3 +54,53 @@
 
   color: black;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1100px) {
+  .photo-about {
+    min-width: 400px;
+  }
+}
+@media (max-width: 920px) {
+  .text-about > h2 {
+    font-size: 1.5rem;
+  }
+  .text-about > p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 800px) {
+  #about-section {
+    height: auto;
+  }
+  .about-card {
+    flex-direction: column;
+  }
+  .photo-about {
+    min-width: 300px;
+    height: 400px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 425px) {
+  #about-section {
+    padding: 30px;
+  }
+  .about-card {
+    width: 98%;
+    height: 98%;
+    padding: 15px;
+  }
+  .photo-about {
+    min-width: 200px;
+    height: 300px;
+  }
+  .text-about > h2 {
+    font-size: 1.2rem;
+  }
+  .text-about > p {
+    font-size: 0.7rem;
+  }
+}
