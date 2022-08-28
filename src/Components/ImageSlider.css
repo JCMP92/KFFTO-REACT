@@ -4,8 +4,9 @@
   position: relative;
 }
 .image-displaying {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }

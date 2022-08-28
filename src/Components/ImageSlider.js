@@ -15,7 +15,7 @@ function ImageSlider({ slides }) {
     setCurrentIndex(newIndex);
   }
 
-  console.log(currentIndex);
+  console.log(images[currentIndex].img);
 
   return (
     <div className="image-slider">
@@ -27,7 +27,11 @@ function ImageSlider({ slides }) {
       </button>
       <div
         className="image-displaying"
-        style={{ backgroundImage: `url(${images[currentIndex].img})` }}
+        style={{
+          backgroundImage: `url(${images[currentIndex].img})`,
+          height: '100%',
+          width: '100%',
+        }}
       ></div>
     </div>
   );
