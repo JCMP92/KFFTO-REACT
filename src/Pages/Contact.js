@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div id="contact-section">
       <div className="header-container">
-        <h1>Lorem ipsum dolor</h1>
+        <h1>VIVE LA EXPERIENCIA DEL CAFÉ</h1>
       </div>
       <div className="contact-and-location">
         <div className="map">

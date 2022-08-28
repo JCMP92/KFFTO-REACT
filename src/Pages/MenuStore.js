@@ -7,7 +7,7 @@ function MenuStore() {
       <div className="menu-content">
         <div className="menu-text">
           <div className="mnu-txt">
-            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Un nuevo concepto de cafeterías en Puebla</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
               ipsam ipsa deleniti quas repellendus soluta. Magni nulla harum
@@ -15,7 +15,7 @@ function MenuStore() {
             </p>
           </div>
           <div className="mnu-txt">
-            <h2>Lorem, ipsum dolor.</h2>
+            <h2>En 2015, un sueño nace de una pasión</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
               ipsam ipsa deleniti quas repellendus soluta. Magni nulla harum
@@ -23,7 +23,7 @@ function MenuStore() {
             </p>
           </div>
           <div className="mnu-txt">
-            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Café 100% mexicano</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
               ipsam ipsa deleniti quas repellendus soluta. Magni nulla harum

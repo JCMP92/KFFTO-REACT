@@ -26,7 +26,7 @@
   min-width: 500px;
   height: 95%;
 
-  background-image: url('../Img/tyler-nix-3uSHEffsDXI-unsplash.jpg');
+  background-image: url('../Img/Slides/about.jpg');
   background-size: cover;
   background-position: center;
 
@@ -39,6 +39,7 @@
   justify-content: center;
   height: 95%;
   font-family: 'Roboto';
+  padding: 10px;
 }
 .text-about > h2 {
   font-family: 'Roboto';
@@ -53,6 +54,19 @@
   font-size: 1rem;
 
   color: black;
+}
+.end-quote {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+
+  color: rgb(124, 198, 173);
+  margin-top: 2rem;
+}
+.title-color {
+  color: rgb(28, 58, 34);
+  font-weight: bold;
 }
 
 /* MEDIA QUERIES */
