@@ -1,10 +1,16 @@
 import './About.css';
+import image from '../Img/Slides/about.jpg';
 
 function About() {
   return (
     <div id="about-section">
       <div className="about-card">
-        <div className="photo-about"></div>
+        <img
+          className="photo-about"
+          src={image}
+          loading="lazy"
+          alt="pouring-tea"
+        />
         <div className="text-about">
           <h2>¿Qué es KFFTO?</h2>
           <p>

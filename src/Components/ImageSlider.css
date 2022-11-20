@@ -1,6 +1,8 @@
 .image-slider {
   width: 65%;
   height: 91%;
+  max-height: 720px;
+  max-width: 1080px;
   position: relative;
 }
 .image-displaying {

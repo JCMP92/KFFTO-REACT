@@ -25,14 +25,16 @@ function ImageSlider({ slides }) {
       <button className="carousel-button next" onClick={() => nextImage()}>
         &#10095;
       </button>
-      <div
-        className="image-displaying"
+      <img
         style={{
-          backgroundImage: `url(${images[currentIndex].img})`,
-          height: '100%',
           width: '100%',
+          height: '100%',
+          objectFit: 'contain',
         }}
-      ></div>
+        loading="lazy"
+        src={images[currentIndex].img}
+        alt="imageskffto"
+      />
     </div>
   );
 }

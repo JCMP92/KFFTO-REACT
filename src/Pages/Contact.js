@@ -13,14 +13,6 @@ function Contact() {
         <h1>VIVE LA EXPERIENCIA DEL CAFÉ</h1>
       </div>
       <div className="contact-and-location">
-        <div className="map">
-          <iframe
-            src="https://www.google.com/maps/d/u/0/embed?mid=10dhs1EmyfrsAPLz4mgbPzqMq5aDkVbk&ehbc=2E312F"
-            width="100%"
-            height="98%"
-            title="Location Map"
-          ></iframe>
-        </div>
         <div className="contact-and-social">
           <div className="contact-info">
             <h2 className="contact-title">¡Contáctanos!</h2>
@@ -39,7 +31,7 @@ function Contact() {
               </div>
               <div className="contacts-with-icons">
                 <LocationSvg className="contact-svg" />
-                <a href="https://goo.gl/maps/GorcAGZFyU614d5g9">
+                <a href="https://www.google.com/maps/place/KFFTO/@19.022216,-98.2173783,15z/data=!4m5!3m4!1s0x0:0x1288559a221be44b!8m2!3d19.022216!4d-98.2173783">
                   Av 55 Pte 530-int. 4, Prados Agua Azul, 72530 Puebla, Pue.
                 </a>
               </div>
@@ -60,6 +52,13 @@ function Contact() {
                 target="blank"
               >
                 <InstakSvg className="social-svg" />
+              </a>
+              <a
+                href="https://www.google.com/maps/place/KFFTO/@19.022216,-98.2173783,15z/data=!4m5!3m4!1s0x0:0x1288559a221be44b!8m2!3d19.022216!4d-98.2173783"
+                className="social_link"
+                target="blank"
+              >
+                <LocationSvg className="social-svg" />
               </a>
             </div>
           </div>

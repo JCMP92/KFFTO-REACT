@@ -26,9 +26,9 @@
   min-width: 500px;
   height: 95%;
 
-  background-image: url('../Img/Slides/about.jpg');
   background-size: cover;
   background-position: center;
+  object-fit: cover;
 
   margin-right: 30px;
   box-shadow: 5px 10px 18px #888888;
